@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 90%;
+    height: 90%;
+    background: dodgerblue;
+    position: relative;
+}
+
+.cuadrito {
+    width: 70px;
+    height: 70px;
+    background: tomato;
+    position: absolute;
+    animation: recorrido 5s linear infinite;
+    top:calc(100% - 70px);
+    left: calc(0%);
+    border-radius: 50%;
+}
+
+@keyframes recorrido {
+     0% {
+        top: calc(100% - 70px);
+        left: calc(0%);
+    }
+
+    15% {
+        top: calc(10%);
+        left: calc(10%);
+    } 
+  30%{
+        top: calc(100% - 70px);
+        left: calc(20%);
+   
+    }
+    
+    45% {
+        top: calc(30%);
+        left:calc(30%);
+    }
+    
+    60% {
+        top: calc(100% - 70px);
+        left: calc(40%);
+    }
+    
+    75% {
+        top: calc(60%);
+        left: calc(50%);
+    }
+    90%{
+        top: calc(100% - 70px);
+        left: calc(60%);
+    }
+    100%{
+        top:calc(100% - 70px);
+        left: calc(80%);
+    }
+
+}

@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.sec1 {
+    background: url(./imagenes/Street-Art-Challenge-pic-4-730x492.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 {
+    background: url(./imagenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.sec3 {
+    background: url(./imagenes/paint.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.secText {
+    padding: 50px;
+    height: auto;
+    
+}
+
+h1 {
+    text-align: center;
+    background: black;
+    color: white;
+    font-size: 310%;
+    font-weight: 100;
+    width: 6%;
+    height: 12%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    width: 70%;
+    top: 25%;
+}
+
+.container div {
+    text-align: center;
+    /* margin: 20px 30px; */
+    font-size: 40px;
+    margin: 10px;
+}
+
+.container div:hover {
+    color: rgb(211, 3, 3);
+}
+
+h2 {
+    text-align: center;
+    font-size: 500%;
+}
+
+.imgBox {
+    width: 30%;
+    height: 90%;
+    position: relative;
+}
+
+img {
+    display: block;
+    width: 30%;
+    height: 100%;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 120vh;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#contenedor>div {
+    width: 100%;
+    height: 40%;
+    /* background: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imgBox img {
+    width: 100%;
+    height: 100%;
+}
+
+.imgBox span {
+    position: absolute;
+    top: calc(44%);
+    left: calc(42%);
+    font-size: 180%;
+    text-align: center;
+    display: none;
+}
+
+.imgBox:hover span {
+    display: inline-block;
+}
+
+.imgBox:hover img {
+    opacity: .5;
+}
+
+.secText p {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+
+form {
+    margin: auto;
+    width: 60%;
+     position: relative;
+     /* font-family: 'Open Sans Condensed', sans-serif; */
+}
+
+input {
+    width: 100%;
+    height: 5vh;
+         font-family: 'Open Sans Condensed', sans-serif;
+         font-size: 110%;
+
+}
+
+#textarea {
+    width: 100%;
+    height: 30vh;
+}
+
+#boton {
+    position: absolute;
+    width: 20%;
+    right: 0%;
+    background: rgb(12, 10, 24);
+    color: white;
+    height: 11%;
+    border: none;
+    
+}
+
+footer {
+    background: rgb(248, 79, 50);
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    color: white;
+}
+
+footer p {
+    margin: auto;
+    width:60%;
+    padding: 10px;
+}
+#sectext{
+    height: 800px;
+}
+.icono .fa{
+   font-size: 25px;
+   
+}
+input:hover{
+    background: rgba(181, 175, 230, 0.26);
+}
+#boton:hover{
+    background: rgba(173, 169, 212, 0.733);
+    cursor: pointer;
+}
+.icono{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+.icono:hover{
+    cursor: pointer;
+}
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#flecha{
+    font-size: 65px;
+    /* margin-top: 20%; */
+  
+    display: flex;
+    position: absolute;
+    top: 63%;
+    /* justify-content: center; */
+    /* align-items: center; */
+   
+}
+#flecha:hover{
+    cursor: pointer;
+
+}
