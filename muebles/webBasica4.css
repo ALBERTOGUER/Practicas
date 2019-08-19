@@ -1,0 +1,43 @@
+body{
+    background: rgb(37, 36, 47);
+}
+#container{
+    margin: 12%;
+    margin-top: 0%;
+    height: 80vh;
+    margin-bottom: 0%;
+}
+header{
+    color:white;
+    position: relative;
+}
+h1{
+    font-size: 400%;
+}
+header p{
+    position: absolute;
+    top: 10vh;
+    left: 18vw;
+}
+#div1{
+    width: 100%;
+    background: white;
+    height: 50%;
+    
+}
+#div2{
+    background: white;
+    width: 100%;
+    height: 35%;
+    margin-top: 3%;
+}
+#div1 img{
+    display:block;
+    height: 30vh;
+    width: 18vw;
+    position: absolute;
+    top: 29vh;
+    left: 40vw;
+
+
+}
